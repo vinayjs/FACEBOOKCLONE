@@ -486,18 +486,10 @@ nav{
     padding-left: 23px;
     background: #0a0a0a;
 }
-@media screen and (max-device-width:640px) {
-    
-body{width: 400px;
-        height: 200px;
-        background-color: inherit;
-        color: #fff;
-    }
-       
-}
+
     
 
-@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+@media screen and (min-device-width:320) and (max-device-width:480px) {
     
         body{width: 400px;
         height: 400px;
@@ -506,7 +498,7 @@ body{width: 400px;
     
     }
     
-    @media screen and (min-device-width:360px) and (max-device-width:740px) {
+    @media screen and (min-device-width:481px) and (max-device-width:768px) {
     
         body{width: 360px;
         height: 200px;
@@ -514,4 +506,13 @@ body{width: 400px;
         color: rgb(10, 10, 10);}
     
     }
+ @media screen and (min-device-width:769px) and (max-device-width:1024px) {
+    
+body{width: 400px;
+        height: 200px;
+        background-color: inherit;
+        color: #fff;
+    }
+       
+}
     
