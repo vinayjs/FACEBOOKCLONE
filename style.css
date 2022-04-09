@@ -489,7 +489,7 @@ nav{
 
     
 
-@media screen and (min-device-width:320) and (max-device-width:480px) {
+@media screen and (min-device-width:200px) and (max-device-width:480px) {
     
         body{width: 200px;
         height: 200px;
@@ -966,7 +966,7 @@ nav{
     
     }
     
-    @media screen and (min-device-width:481px) and (max-device-width:768px) {
+    @media screen and (min-device-width:520px) and (max-device-width:980px) {
     
         body{width: 360px;
         height: 200px;
@@ -980,7 +980,7 @@ nav{
 }
 
     }
- @media screen and (min-device-width:769px) and (max-device-width:1024px) {
+ @media screen and (min-device-width:1024px) {
     
 body{width: 400px;
         height: 200px;
