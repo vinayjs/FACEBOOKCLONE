@@ -972,6 +972,12 @@ nav{
         height: 200px;
         background-color: inherit;
         color: rgb(10, 10, 10);}
+   .container{
+    display: flex;
+    position:fixed;
+    justify-content:space-between;
+    padding: 13px 5%;
+}
 
     }
  @media screen and (min-device-width:769px) and (max-device-width:1024px) {
@@ -981,6 +987,11 @@ body{width: 400px;
         background-color: inherit;
         color: #fff;
     }
+     .container{
+    display: flex;
+    position:fixed;
+    justify-content:space-between;
+    padding: 13px 5%;
        
 }
     
