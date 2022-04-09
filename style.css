@@ -460,7 +460,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #626262;
+    color: #1876f2;
 }
 
 #dark-butn{
@@ -486,3 +486,32 @@ nav{
     padding-left: 23px;
     background: #0a0a0a;
 }
+@media screen and (max-device-width:640px) {
+    
+body{width: 400px;
+        height: 200px;
+        background-color: inherit;
+        color: #fff;
+    }
+       
+}
+    
+
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+    
+        body{width: 400px;
+        height: 400px;
+        background-color: inherit;
+        color: rgb(10, 10, 10);}
+    
+    }
+    
+    @media screen and (min-device-width:360px) and (max-device-width:740px) {
+    
+        body{width: 360px;
+        height: 200px;
+        background-color: inherit;
+        color: rgb(10, 10, 10);}
+    
+    }
+    
