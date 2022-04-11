@@ -498,12 +498,12 @@ body{
     transition: background 0.3s;
 }
 nav{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content:  space-between;
     background: var(--nav-color);
     padding: 5px 5%;
-    position:sticky;
+    position:static;
     top: 0;
     z-index: 100;
 }
