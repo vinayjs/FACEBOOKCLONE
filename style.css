@@ -500,6 +500,7 @@ nav{
         background: var(--nav-color);
         background-color: #1876f2;
         padding: 5px 5%;
+        width: fit-content;
         position:sticky;
         top: 0;
         z-index: 100;
@@ -507,7 +508,7 @@ nav{
     .container{
         display: flex;
         justify-content:space-between;
-        padding: 13px 5%;
+        padding: 15px 2%;
     }
     .left-sidebar{
         display: none;
@@ -543,8 +544,8 @@ nav{
         padding: 0 25px;
     }
     .nav-user-icon img {
-        width: 65px;
-        height: 65px;
+        width: 40px;
+        height: 40px;
         border-radius: 100px;
         cursor: pointer;
     }
