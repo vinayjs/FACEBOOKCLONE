@@ -522,13 +522,31 @@ nav{
         
     }
     .ul {
-        display: flex;
+        display: grid;
         list-style-type: disc;
         margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        padding-inline-start: 40px;
+        padding-inline-start: 50px;
+    }
+    .logo {
+        width: 130px;
+        margin-left: 10px;
+    }
+    .search-box {
+        background: #efefef;
+        width: 300px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 0 25px;
+    }
+    .nav-user-icon img {
+        width: 65px;
+        height: 65px;
+        border-radius: 100px;
+        cursor: pointer;
     }
 }
     
